@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: #02101f;
+    color: #FFFFFF;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+header {
+    border-bottom: 3px solid #d3103a ;
+}
+.logo-container {
+    background: #02101f;
+    text-align: center;
+}
+h1 {
+    font-family: 'Kreon';
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+}
+
+main{
+    background: #02101f;
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+    border-left: 3px solid #d3103a ;
+    border-right: 3px solid #d3103a ;
+}
+h2 {
+    font-family: 'Kreon';
+    font-size: 30px;
+    border-left: 2px solid #d3103a;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: inline;
+}
+h2:hover {
+    background: linear-gradient(to right,#d3103a,#02101f )
+}
+.destaques ol {
+    display: flex;
+    align-items: flex-start;
+}
+.destaques li {
+    padding: 0 100px;
+    border: 3px solid #d3103a;
+    text-align: center;
+    margin: 10px ;
+    width: 25%;
+    height: 30%;
+    list-style-type: none
+}
+.banner-destaques {
+    font-size: 40px;
+    text-shadow: #000000 2px 5px;
+    border-bottom: 3px solid #d3103a;
+}
+.hashtag-destaques { 
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+}
+.titulo-destaques {
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.ultimas li {
+    list-style-type: none;
+    padding: 20px;
+    border-bottom: 3px solid #d3103a;
+    margin: 0 0 10px 0;
+} 
+.banner-ultimas {
+    font-size: 35px;
+    display:inline;
+    border: 3px solid #d3103a;
+    padding: 10px;
+}
+.titulo-ultimas {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.descr-ultimas {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    border-top: 3px solid #d3103a ; 
+}
+h3 {
+    font-size: 30px;
+}
+.Lista-Redes-Sociais {
+    display: inline-block;
+    list-style-type: none
+}
+.Item-Redes-Sociais {
+    display: inline-block;
+    padding: 0 23px 0 0;
+}
+footer a {
+    text-decoration: none; 
+    color: #FFFFFF;
+    font-size: 23px;
+}
+footer a:hover{
+    color: yellow;
+}
+
+
